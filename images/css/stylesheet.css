@@ -1,111 +1,99 @@
-body {
-  background-color: #f0f0f0;
-}
-
-h1 {
-  text-align: center;
-}
-
-img {
-  border: 2px solid black;
-  padding: 10px;
-}
-
-a:link {
-  color: blue;
-  text-decoration: none;
-}
-a:visited {
-  color: blue;
-  text-decoration: none;
-}
-a:hover {
-  color: red;
-  text-decoration: underline;
-}
-a:active {
-  color: red;
-  text-decoration: underline;
-}
 
 #container {
-  width: 80%;
-  margin: 0 auto;
-  background-color: white;
-  padding: 20px;
-  border: 1px solid green;
+    background-color: white;
+    border: 2px solid #2f6fad;
 }
 
-.error {
-  color: red;
-  font-weight: bold;
+.schedule-table {
+    width: 85%;
+    margin: 30px auto;
+    border-collapse: collapse;
 }
 
-caption {
-  font-style: italic;
-  text-align: right;
+
+.schedule-table th {
+    background-color: #2f6fad;
+    color: white;
+    padding: 15px;
+    text-align: left;
 }
 
-table {
-  border-collapse: collapse;
-  width: 80%; /* 80% of the available width */
-  margin: 20px auto; /* Center the table and add vertical spacing */
+
+.schedule-table td {
+    padding: 15px;
 }
 
-th,
-td {
-  text-align: left;
-  padding: 8px;
-  border-bottom: 1px solid #ddd; /* Adds horizontal dividers */
+
+.schedule-table tbody tr:nth-child(even) {
+    background-color: #e6eef7;
 }
 
-/* Alternating row colors for the table body */
-tbody tr:nth-child(even) {
-  background-color: #f2f2f2; /* Light grey background for even rows */
+.schedule-table tbody tr:nth-child(odd) {
+    background-color: white;
 }
 
-tbody tr:nth-child(odd) {
-  background-color: #ffffff; /* White background for odd rows (optional, good practice) */
+
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
-/* Hover effect for all table body rows */
-tbody tr:hover {
-  background-color: #ddd; /* A different, distinct background color on hover */
-  cursor: pointer; /* Changes the cursor to a pointer to indicate interactivity */
+
+
+section {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #d0d7de;
 }
 
-th {
-  background-color: #4caf50; /* Green background for header cells */
-  color: white; /* White text for header cells */
+section p {
+    font-size: 18px;
+    line-height: 1.6;
 }
 
-caption {
-  font-weight: bold;
-  margin-bottom: 8px;
+
+section img {
+    border: 3px solid #2f6fad;
+    padding: 6px;
+    margin-top: 10px;
 }
 
-ul.nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
+
+section ul {
+    font-size: 18px;
+    padding-left: 25px;
 }
 
-ul.nav li {
-  float: left;
+
+section ol {
+    font-size: 18px;
+    padding-left: 25px;
 }
 
-ul.nav li a:link,
-ul.nav li a:visited {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+
+section h3 {
+    font-size: 26px;
+    color: #2f6fad;
+    margin-top: 20px;
 }
 
-ul.nav li a:hover {
-  background-color: #111111;
+
+/* Page background */
+body {
+    background-color: #e9ecef;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
 }
+
+/* Main content container */
+#container {
+    width: 85%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border: 2px solid #2f5f8f;
 }
